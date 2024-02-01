@@ -1,0 +1,118 @@
+/** Card **/
+.card {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card_top {
+  display: flex;
+  gap: 5px;
+}
+
+.card_top_labels {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.card_top svg {
+  opacity: 0;
+  transition: 200ms;
+}
+
+.card:hover .card_top svg {
+  opacity: 1;
+}
+
+.card_title {
+  font-weight: bold;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_footer p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card_footer svg {
+  height: 18px;
+  width: 18px;
+  color: gray;
+}
+
+/**Add Card**/
+
+.add_card {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+  /* color: #fff; */
+  border-radius: 5px;
+}
+
+.edit_display {
+  font-family: system-ui;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  cursor: default;
+  background-color: #1876d2;
+  color: white;
+}
+
+.edit_display:hover {
+  background-color: #ccc;
+}
+
+.editable {
+  width: 100%;
+}
+
+.editable_edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editable_edit input {
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #1379ec;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.edit_footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit_footer button {
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #1379ec;
+  transition: 200ms;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit_footer button:hover {
+  background-color: #0765d1;
+}
+
+.editable_edit_footer svg {
+  cursor: pointer;
+}

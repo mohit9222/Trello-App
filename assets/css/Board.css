@@ -1,0 +1,80 @@
+/** board**/
+.board {
+  min-width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-height: 80%;
+  height: 95%;
+  border-radius: 5%;
+}
+
+.del_board {
+  line-height: 2px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.board_top {
+  display: flex;
+}
+
+.board_top_title {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  font-weight: bold;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.board_top_title span {
+  font-family: "system-ui";
+  color: black;
+}
+
+.board_cards {
+  flex: 1;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 10px;
+  overflow-y: auto;
+}
+
+.board_cards_add {
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 118, 210);
+  /* width: 100%; */
+  border-radius: 5px;
+  box-shadow: 1px 2px 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.board_cards_add:hover {
+  box-shadow: 1px 2px 0 1px #ccc;
+}
+
+.app_boards_boards {
+  min-width: 290px;
+  width: 290px;
+}
+
+.app_boards_board_add {
+  font-family: system-ui;
+  color: #fff;
+  width: 100%;
+  background-color: #1876d2;
+  border-radius: 5px;
+  box-shadow: 0.5px 1px 0 0.5px #00000026;
+}
+
+.app_boards_board_add:hover {
+  box-shadow: 1px 2px 0 1px #ccc;
+}
