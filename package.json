@@ -2,7 +2,6 @@
   "name": "trello",
   "version": "1.0.0",
   "description": "Trello Application",
-  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -28,6 +27,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.6",
     "@mui/material": "^5.15.6",
+    "@swc/helpers": "^0.5.3",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
     "react-router-dom": "^6.21.3"
