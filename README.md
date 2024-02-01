@@ -9,6 +9,7 @@ The Trello App is a simple Kanban-style task management application, inspired by
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+- [live](#LiveModule)
 
 ## Features
 
@@ -50,3 +51,7 @@ Start the development server:
 Start the production server
 
 - npm run build
+
+## LiveModule
+
+https://mytrello-app-clone.netlify.app/
